@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>oc.carousel - Carousel Widget for jQuery | Examples</title>
+		<script type="text/javascript" charset="utf-8" src="js/jquery-1.5.1.min.js"></script>
+		<script type="text/javascript" charset="utf-8" src="js/jquery-ui-1.8.9.custom.min.js"></script>
+		<script type="text/javascript" charset="utf-8" src="js/jquery.oc.carousel.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				$('#carousel1').carousel({autoScroll: false, loopBack: false, slideItems: 3, vertical: false});
+				$('#carousel2').carousel({autoScroll: true, loopBack: true, slideItems: 3, vertical: false});
+				$('#carousel3').carousel({autoScroll: false, loopBack: true, slideItems: 3, vertical: false});
+				$('#carousel4').carousel({autoScroll: false, loopBack: false, slideItems: 3, vertical: true});
+				$('#carousel5').carousel({autoScroll: true, loopBack: true, slideItems: 3, vertical: true});
+				//$('#carousel').carousel('destroy');
+			});
+		</script>
+		<style type="text/css">
+			#carousel{display:inline-block;width:510px;}
+		</style>
+	</head>
+	<body>
+		<h2>Auto Scroll turned off and loopBack turned off:</h2>
+		<div id="carousel1">
+			<div style="width:100px;height:65px;border:1px solid red;background-color:red;">
+				1
+			</div>
+			<div style="width:100px;height:65px;border:1px solid red;background-color:blue;">
+				2
+			</div>
+			<div style="width:100px;height:65px;border:1px solid red;background-color:green;">
+				3
+			</div>
+			<div style="width:100px;height:65px;border:1px solid red;background-color:yellow;">
+				4
+			</div>
+			<div style="width:100px;height:65px;border:1px solid red;background-color:orange;">
+				5
+			</div>
+			<div style="width:100px;height:65px;border:1px solid red;background-color:brown;">
+				6
+			</div>
+		</div>
+		<h2>Auto Scroll turned on:</h2>
+		<div id="carousel2">
+			<div style="width:100px;height:65px;border:1px solid red;background-color:red;">
+				1
+			</div>
+			<div style="width:100px;height:65px;border:1px solid red;background-color:blue;">
+				2
+			</div>
+			<div style="width:100px;height:65px;border:1px solid red;background-color:green;">
+				3
+			</div>
+			<div style="width:100px;height:65px;border:1px solid red;background-color:yellow;">
+				4
+			</div>
+			<div style="width:100px;height:65px;border:1px solid red;background-color:orange;">
+				5
+			</div>
+			<div style="width:100px;height:65px;border:1px solid red;background-color:brown;">
+				6
+			</div>
+		</div>
+		<h2>Auto Scroll turned off and loopBack turned on:</h2>
+		<div id="carousel3">
+			<div style="width:100px;height:65px;border:1px solid red;background-color:red;">
+				1
+			</div>
+			<div style="width:100px;height:65px;border:1px solid red;background-color:blue;">
+				2
+			</div>
+			<div style="width:100px;height:65px;border:1px solid red;background-color:green;">
+				3
+			</div>
+			<div style="width:100px;height:65px;border:1px solid red;background-color:yellow;">
+				4
+			</div>
+			<div style="width:100px;height:65px;border:1px solid red;background-color:orange;">
+				5
+			</div>
+			<div style="width:100px;height:65px;border:1px solid red;background-color:brown;">
+				6
+			</div>
+		</div>
+		<h2>Vertical carousel Auto Scroll turned off and loopBack turned off:</h2>
+		<div id="carousel4">
+			<div style="width:100px;height:65px;border:1px solid red;background-color:red;">
+				1
+			</div>
+			<div style="width:100px;height:65px;border:1px solid red;background-color:blue;">
+				2
+			</div>
+			<div style="width:100px;height:65px;border:1px solid red;background-color:green;">
+				3
+			</div>
+			<div style="width:100px;height:65px;border:1px solid red;background-color:yellow;">
+				4
+			</div>
+			<div style="width:100px;height:65px;border:1px solid red;background-color:orange;">
+				5
+			</div>
+			<div style="width:100px;height:65px;border:1px solid red;background-color:brown;">
+				6
+			</div>
+		</div>
+		<h2>Vertical carousel Auto Scroll turned on:</h2>
+		<div id="carousel5">
+			<div style="width:100px;height:65px;border:1px solid red;background-color:red;">
+				1
+			</div>
+			<div style="width:100px;height:65px;border:1px solid red;background-color:blue;">
+				2
+			</div>
+			<div style="width:100px;height:65px;border:1px solid red;background-color:green;">
+				3
+			</div>
+			<div style="width:100px;height:65px;border:1px solid red;background-color:yellow;">
+				4
+			</div>
+			<div style="width:100px;height:65px;border:1px solid red;background-color:orange;">
+				5
+			</div>
+			<div style="width:100px;height:65px;border:1px solid red;background-color:brown;">
+				6
+			</div>
+		</div>	
+	</body>
+</html>
